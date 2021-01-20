@@ -5,7 +5,7 @@ description = "A Django demo"
 authors = ["Tyler Gaw <tyler@ideas42ventures.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.9"
 Django = "3.1.5"
 
 [tool.poetry.dev-dependencies]
