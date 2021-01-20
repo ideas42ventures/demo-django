@@ -73,3 +73,7 @@ python manage.py runserver
 ```
 
 The app will be available at [http://localhost:8000](http://localhost:8000).
+
+## Deployment
+
+This app is hosted on Heroku.
