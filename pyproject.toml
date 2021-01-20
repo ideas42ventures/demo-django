@@ -5,7 +5,7 @@ description = "A Django demo"
 authors = ["Tyler Gaw <tyler@ideas42ventures.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "3.9.1"
 Django = "3.1.5"
 gunicorn = "^20.0.4"
 

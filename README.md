@@ -9,7 +9,7 @@ An example web application written in Python, using Django.
 
 ### Requirements
 
-- Python ^3.9
+- Python 3.9.1
 - [pyenv](https://github.com/pyenv/pyenv)
 - [Poetry](https://python-poetry.org/docs/)
 
