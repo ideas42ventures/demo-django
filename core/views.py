@@ -1,5 +1,7 @@
-from django.http import HttpResponse
+from django.views.decorators.http import require_safe
+from django.shortcuts import render
 
 
+@require_safe
 def index(request):
-    return HttpResponse("Hello, this is a demo Django app.")
+    return render(request, "home.jinja")
