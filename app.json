@@ -1,0 +1,25 @@
+{
+  "name": "Django Demo App",
+  "description": "An example web application written in Python, using Django.",
+  "website": "https://studio-demo-django.herokuapp.com",
+  "repository": "https://github.com/ideas42ventures/demo-django",
+  "env": {
+    "DJANGO_SECRET_KEY": {
+      "description": "A standard Django secret key.",
+      "required": true
+    },
+    "DJANGO_SETTINGS_MODULE": {
+      "description": "The path to the settings file for this environment. Ex; config.settings.production",
+      "default": "config.settings.production",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/moneymeets/python-poetry-buildpack.git"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
