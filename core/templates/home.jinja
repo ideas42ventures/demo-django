@@ -1,9 +1,9 @@
 {% extends "layouts/base.jinja" %} 
 
 {% block main %} 
-<div>
+<div class="hero">
   <h1>Debt Hammer</h1>
-  <p>We buy debt, then forgive it.</p>
+  <p class="tagline">We buy debt, then forgive it.</p>
 </div>
 
 <div>
@@ -24,10 +24,12 @@
   <a href="/reports">Read the reports</a>
 </div>
 
-<blockquote>
-  <p>
-    Debt Hammer is the worst debt collector in America.
-  </p>
-  <cite>Wall Street Journal</cite>
-</blockquote>
+<footer class="contentinfo">
+  <blockquote>
+    <p>
+      Debt Hammer is the worst debt collector in America.
+    </p>
+    <cite>Wall Street Journal</cite>
+  </blockquote>
+</footer>
 {% endblock %}

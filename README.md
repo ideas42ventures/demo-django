@@ -1,11 +1,11 @@
-# Django Demo App
+# [Django Demo App](https://studio-demo-django.herokuapp.com/)
 
 An example web application written in Python, using Django.
 
 ## Contributing
 
-- This is a dynamic app built using Python
-- Hosted on Heroku in the ideas42 Ventures team account
+- This is a dynamic web app built using Python
+- Hosted on Heroku in the ideas42 Ventures team account. See [Deployment](#deployment) for details.
 
 ### Requirements
 
@@ -76,4 +76,12 @@ The app will be available at [http://localhost:8000](http://localhost:8000).
 
 ## Deployment
 
-This app is hosted on Heroku.
+This app is hosted on Heroku in the ideas42 team account.
+
+### To Production
+
+Any code merged into the `main` branch is automatically deployed to production.
+
+### To Staging
+
+We use [Heroku review apps](https://devcenter.heroku.com/articles/github-integration-review-apps). To see any branch in the staging environment, push the branch to the remote and open a pull request. Heroku will automatically build and deploy the app and provide a URL.
